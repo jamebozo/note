@@ -8,7 +8,7 @@ AF - Auto Focus
 
 2. 模擬退火法（SA, Simulated Annealing)
 - greedy找到最佳解完，還會隨機往右跳。
-  如果有更好的全域最佳解，有可能跳出來。
+  如果有更好的全域最佳解，有可能跳出局部最佳解。
 
 ================================
 AE - Auto Exposure
