@@ -2,8 +2,13 @@
 ================================
 AF - Auto Focus
 
-爬山算法（hill-climbing）
+1. 爬山算法（hill-climbing）
+- greedy方法, 
+- 問題：在還沒找到全域最佳解，就卡在局部最佳解
 
+2. 模擬退火法（SA, Simulated Annealing)
+- greedy找到最佳解完，還會隨機往右跳。
+  如果有更好的全域最佳解，有可能跳出來。
 
 ================================
 AE - Auto Exposure
