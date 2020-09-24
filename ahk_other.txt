@@ -1,0 +1,12 @@
+CapsLock::RControl
+>^h::Send, {Left}
+>^j::Send, {Down}
+>^k::Send, {Up}
+>^l::Send, {Right}
+>^o::Send, {End}{Enter}
+>^;::Send, {PgDn}
+>^p::Send, {PgUp}
+>^[::Send, {Home}
+>^'::Send, {End}
+>^n::Send, {Backspace}
+>^m::Send, {Delete}
