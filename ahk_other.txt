@@ -1,3 +1,9 @@
+
+======================
+Linux
+======================
+Install AutoHotKey, then add:
+
 CapsLock::RControl
 >^h::Send, {Left}
 >^j::Send, {Down}
@@ -10,3 +16,34 @@ CapsLock::RControl
 >^'::Send, {End}
 >^n::Send, {Backspace}
 >^m::Send, {Delete}
+
+
+
+======================
+Linux
+======================
+install autokey
+Terminal: replace Caps_Locks with Hyper_L
+>> xmodmap -e "keysym Caps_Lock = Hyper_L"\
+
+~/.config/autokey/data/
+keyboard.send_key('<left>')
+
+=======================
+keybinding
+https://unix.stackexchange.com/questions/414926/bind-capshjkl-to-arrow-keys-caps-to-esc
+
+in ~/.xmodmap
+keycode 66 = Mode_switch
+keysym h = h H Left
+keysym l = l L Right
+keysym k = k K Up
+keysym j = j J Down
+keysym u = u U Prior
+keysym i = i I Home
+keysym o = o O End
+keysym p = p P Next
+xmodmap ~/.xmodmap
+
+Keybindings
+https://github.com/autokey/autokey/wiki/Special-Keys
